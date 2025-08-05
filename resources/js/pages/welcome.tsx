@@ -14,16 +14,16 @@ export default function Welcome() {
                 <header className="mb-6 w-full max-w-[335px] text-sm not-has-[nav]:hidden lg:max-w-4xl">
                     <nav className="flex items-center justify-center gap-4">
                         <Link
-                            href={route('login')}
+                            href={route('pdf.index')}
                             className="inline-block rounded-sm border border-transparent px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#19140035] dark:text-[#EDEDEC] dark:hover:border-[#3E3E3A]"
                         >
-                            Log in
+                            PDF
                         </Link>
                         <Link
-                            href={route('register')}
+                            href={route('pdf.test')}
                             className="inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
                         >
-                            Register
+                            TEST
                         </Link>
                     </nav>
                 </header>
